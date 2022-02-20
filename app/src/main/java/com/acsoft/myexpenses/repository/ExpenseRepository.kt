@@ -6,5 +6,5 @@ interface ExpenseRepository {
 
     fun getAllExpenses() : List<Expense>
 
-    fun insertExpenses(expense: Expense)
+    suspend fun insertExpenses(expense: Expense)
 }

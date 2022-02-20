@@ -1,14 +1,19 @@
 package com.acsoft.myexpenses.data.local
 
 import com.acsoft.myexpenses.data.model.Expense
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import javax.inject.Inject
 
-class LocalExpenseDataSource(private val expenseDao: ExpenseDao) {
+@ExperimentalCoroutinesApi
+class LocalExpenseDataSource @Inject constructor(
+    private val expenseDao: ExpenseDao
+) {
 
     fun getAllExpenses() : List<Expense> {
         return expenseDao.getAllExpenses()
     }
 
-    fun insertExpense(expense: Expense) {
+    suspend fun insertExpense(expense: Expense) {
         expenseDao.insertExpense(expense)
     }
 

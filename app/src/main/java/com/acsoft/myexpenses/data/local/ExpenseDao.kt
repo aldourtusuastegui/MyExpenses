@@ -12,6 +12,6 @@ interface ExpenseDao {
     fun getAllExpenses() : List<Expense>
 
     @Insert
-    fun insertExpense(expense: Expense)
+    suspend fun insertExpense(expense: Expense)
 
 }
