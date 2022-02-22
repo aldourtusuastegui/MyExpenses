@@ -19,9 +19,9 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        val expenseViewModel : ExpenseViewModel by viewModels()
+       /* val expenseViewModel : ExpenseViewModel by viewModels()
         val expense = Expense(1,"beer",100.0)
         expenseViewModel.insertExpense(expense)
-
+*/
     }
 }

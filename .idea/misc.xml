@@ -5,10 +5,13 @@
       <map>
         <entry key="..\:/Users/Aldo/AndroidStudioProjects/MyExpenses/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/Aldo/AndroidStudioProjects/MyExpenses/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Aldo/StudioProjects/MyExpenses/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Aldo/StudioProjects/MyExpenses/app/src/main/res/layout/fragment_list_expenses.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Aldo/StudioProjects/MyExpenses/app/src/main/res/layout/fragment_register_expense.xml" value="0.17147922998986828" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
