@@ -8,8 +8,7 @@ import com.acsoft.myexpenses.repository.ExpenseRepository
 import kotlinx.coroutines.launch
 
 class ExpenseViewModel @ViewModelInject constructor(
-    private val repository: ExpenseRepository,
-    @Assisted private val savedStateHandle: SavedStateHandle
+    private val repository: ExpenseRepository
 ) : ViewModel() {
 
     fun getAllExpenses() : LiveData<List<Expense>> {
@@ -19,7 +18,6 @@ class ExpenseViewModel @ViewModelInject constructor(
     }
 
     fun insertExpense(expense: Expense) {
-
         viewModelScope.launch {
             repository.insertExpenses(expense)
         }
